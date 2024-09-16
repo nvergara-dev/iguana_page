@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  background-color: black;
+  color: white;
+  font-family: "raleway", Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+header > h1{
+  font-size: 2rem;
+}
+
+header > figure > img {
+  width: 100%;
+  opacity: 1;
+}
+
+.descripcion{
+  display: flex;
+  gap: 10%;
+  padding: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  height: 25rem;
+}
+
+.descripcion > article{
+ text-align: left;
+ padding-top: 4rem;
+ padding-bottom: 4rem;
+ margin: 0;
+ width: 35%;
+}
+.descripcion > figure{
+  width: 30%;
+  margin: 0;
+ }
+ .descripcion > figure > img{
+  width: 100%;
+ }
+
+.caracteristicas{
+background-color: #1E1A13;
+padding: 4rem;
+height: 25rem;
+}
+
+.iconos{
+  padding-top: 6rem;
+}
+
+
+.galeria{
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  margin: 1rem;
+  gap: 1.5rem;
+  height: 25rem;
+}
+
+.galeria > figure{
+  width: 30%;
+  margin: 0;
+}
+
+.galeria > figure > img{
+  width: 100%;
+}
+
+.iconos{
+  display: flex;
+  justify-content: space-around;
+}
+
+footer{
+  background-color: #1E1A13;
+  height: 7.5rem;
+  padding-top: 4rem;
+}
